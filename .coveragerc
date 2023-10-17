@@ -3,15 +3,15 @@ parallel = True
 concurrency = multiprocessing
 branch = True
 include =
-    ka_starter_api/api/*
-    ka_starter_api/apps/*
-    ka_starter_api/clients/*
-    ka_starter_api/drf/*
-    ka_starter_api/event_handlers/*
-    ka_starter_api/libs/*
-    ka_starter_api/services/*
-    ka_starter_api/tasks/*
-    ka_starter_api/utils/*
+    ka_be_order/api/*
+    ka_be_order/apps/*
+    ka_be_order/clients/*
+    ka_be_order/drf/*
+    ka_be_order/event_handlers/*
+    ka_be_order/libs/*
+    ka_be_order/services/*
+    ka_be_order/tasks/*
+    ka_be_order/utils/*
 omit =
     */__init__.py
     */fixtures/*
