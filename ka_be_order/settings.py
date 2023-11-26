@@ -123,6 +123,12 @@ INSTALLED_APPS = [
     'django_tables2',
 
     'oscarapi',
+
+    'ka_be_order_custom',
+]
+
+OSCARAPI_OVERRIDE_MODULES = [
+    'ka_be_order_custom',
 ]
 
 MIDDLEWARE = [
